@@ -1,0 +1,23 @@
+sort1 uses: bubble sort
+
+How do you know?:bubble sort has a omega of n. Among the three sorting algorithms, it has the best omega and since it takes the least time to sort a sorted array, it is bubble sort.
+
+sort2 uses: merge sort
+
+How do you know?: merge sort has a big o of n log n, which means that it will take the shortest time in the worst case among the three algorithms. sort1 took 8 seconds to sort a random file, sort3 tooks 3.426 seconds and sort2 took 0.980 seconds. Therefore, sort2 is merge sort.
+
+sort3 uses: selection sort
+
+How do you know?: selection sort has an omega of n^2, which means that it will take the longest time to sort a sorted array. sort1 took 0.639 seconds and sort2 took 0.819 seconds while sort3 took 3.573 seconds. This means that sort3 has the highest time for a sorted array and therefore, it is Selection sort.
+
+sort1 random 50000: 8.092 seconds
+sort1 reversed 50000: 5.891 seconds
+sort1 sorted 50000: 0.639 seconds
+
+sort2 random 50000: 0.980 seconds
+sort2 reversed 50000: 0.724 seconds
+sort2 sorted 50000: 0.819 seconds
+
+sort3 random 50000: 3.426 seconds
+sort3 reversed 50000: 3.462 seconds
+sort3 sorted 50000: 3.573 seconds

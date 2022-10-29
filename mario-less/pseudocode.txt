@@ -1,0 +1,4 @@
+1.Get input from the user(n) by a do-while loop using which the user has to input a number between 1 and 8 exculsively.
+2.We have to make a loop with a number called i which should be smaller than or equal to the height(n).
+3.We should increment i.
+4.Another loop will add the spaces.
